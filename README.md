@@ -34,6 +34,7 @@ I built this lab as part of CodePath’s CYB102 cybersecurity course to gain han
 ### Custom nginx mitigation rules in default.conf:
 <img src="https://github.com/user-attachments/assets/71624843-bb6b-44ec-844e-cbbac2ac6182" width="600"/>
 
+---
 ### Wireshark analysis of vulnerable server (.pcap file comparison):
 #### A.pcapng
 <img src="https://github.com/user-attachments/assets/73b54859-9ca7-45de-a553-4c6120d1844f" width="600"/>
