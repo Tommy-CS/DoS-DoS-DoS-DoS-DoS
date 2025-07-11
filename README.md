@@ -22,7 +22,7 @@ I built this lab as part of CodePath’s CYB102 cybersecurity course to gain han
 
 ### nginx Amplify dashboard showing pre-mitigation Slowloris attack: 
 <img src="https://github.com/user-attachments/assets/e774ff05-0fa3-464b-ba9c-04374ec670e9" width="600"/>
-<img src="https://github.com/user-attachments/assets/19e2251f-58b1-4187-8c41-41da3cc7d04e" width="600"/>
+<img src="https://github.com/user-attachments/assets/90f31f33-627d-4dc3-8d27-beaea5342bc8" width="600"/>
 
 ### nginx Amplify dashboard after mitigation rules are applied: 
 <img src="https://github.com/user-attachments/assets/e8d798b4-ab70-4e20-8353-ebc4487022c1" width="600"/>
