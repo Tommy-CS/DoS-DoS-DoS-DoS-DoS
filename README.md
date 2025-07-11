@@ -20,14 +20,17 @@ I built this lab as part of CodePath’s CYB102 cybersecurity course to gain han
 ### Creating a new file with the stub_status configuration
 <img src="https://github.com/user-attachments/assets/f5949ada-48d6-41a4-8c72-a02d725ebd50" width="600"/>
 
+---
 ### nginx Amplify dashboard showing pre-mitigation Slowloris attack: 
 <img src="https://github.com/user-attachments/assets/e774ff05-0fa3-464b-ba9c-04374ec670e9" width="600"/>
 <img src="https://github.com/user-attachments/assets/90f31f33-627d-4dc3-8d27-beaea5342bc8" width="600"/>
 
+---
 ### nginx Amplify dashboard after mitigation rules are applied: 
 <img src="https://github.com/user-attachments/assets/e8d798b4-ab70-4e20-8353-ebc4487022c1" width="600"/>
 <img src="https://github.com/user-attachments/assets/8b523cb3-ece0-4721-9985-e362a79134ac" width="600"/>
 
+---
 ### Custom nginx mitigation rules in default.conf:
 <img src="https://github.com/user-attachments/assets/71624843-bb6b-44ec-844e-cbbac2ac6182" width="600"/>
 
@@ -35,9 +38,11 @@ I built this lab as part of CodePath’s CYB102 cybersecurity course to gain han
 #### A.pcapng
 <img src="https://github.com/user-attachments/assets/73b54859-9ca7-45de-a553-4c6120d1844f" width="600"/>
 
+---
 #### B.pcapng
 <img src="https://github.com/user-attachments/assets/6d43307f-da79-4b44-91a5-6e75f4f02ef0" width="600"/>
 
+---
 #### Why is A.pcapng the vulnerable server?
 - I filtered by tcp.analysis.flags and saw many TCP RST packets where the server was actively closing slow or incomplete connections. This blocked the Slowloris attack. On the other hand, File B allowed the connections to remain open without closing them, showing it was the vulnerable server.
 <img src="https://github.com/user-attachments/assets/be73bc77-5bb8-4771-8ead-9b91136b5bbc" width="600"/> 
