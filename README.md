@@ -39,5 +39,5 @@ I built this lab as part of CodePath’s CYB102 cybersecurity course to gain han
 <img src="https://github.com/user-attachments/assets/6d43307f-da79-4b44-91a5-6e75f4f02ef0" width="600"/>
 
 #### Why is A.pcapng the vulnerable server?
-I filtered by tcp.analysis.flags and saw many TCP RST packets where the server was actively closing slow or incomplete connections. This blocked the Slowloris attack. On the other hand, File B allowed the connections to remain open without closing them, showing it was the vulnerable server.
+- I filtered by tcp.analysis.flags and saw many TCP RST packets where the server was actively closing slow or incomplete connections. This blocked the Slowloris attack. On the other hand, File B allowed the connections to remain open without closing them, showing it was the vulnerable server.
 <img src="https://github.com/user-attachments/assets/be73bc77-5bb8-4771-8ead-9b91136b5bbc" width="600"/> 
